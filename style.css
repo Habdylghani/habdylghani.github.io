@@ -10,3 +10,6 @@ body{
 #home:hover {
  color: rgb(197, 30, 57);
 }
+footer{
+    text-align: center;
+}
