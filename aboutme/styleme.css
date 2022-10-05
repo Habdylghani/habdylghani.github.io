@@ -1,0 +1,68 @@
+body {
+    background-color: lightblue;
+    margin: 20px;
+}
+
+h1 {
+    color: #7c1717;
+    font-weight: bold;
+    text-align: left;
+    font-family: CALIST;
+    font-style: italic;
+    font-size: 2.2em;
+    /*text-shadow: 2px 2px 4px black;*/
+}
+
+h2 {
+    color: #550303;
+    text-align: left;
+    font-family: CALIST;
+    font-style: italic;
+    font-size: 1.5em;
+    /*text-shadow: 2px 2px 4px black;*/
+}
+
+
+p {
+    text-align: left;
+    color: rgba(30, 19, 133, 0.815);
+}
+
+a:visited {
+    color: #366E7D;
+}
+
+a:hover {
+    color: hotpink;
+    font-weight: bold;
+}
+
+.all{
+    width: auto;
+    height: auto;
+    margin: auto;
+    background-color:darkgrey;
+    padding: 20px;
+}
+
+.html-css img{
+    height: 40px;
+    width: 80px;;
+}
+
+footer{
+    text-align: center;
+}
+
+.Mood div{
+    display: inline-block;
+    margin-right: 20%;
+}
+
+.Mood1 img{
+    height: 250px;
+}
+
+.Mood2 img{
+    height: 250px;
+}
