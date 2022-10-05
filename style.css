@@ -10,6 +10,10 @@ body{
 #home:hover {
  color: rgb(197, 30, 57);
 }
-footer{
+.html-css img{
+    height: 40px;
+    width: 80px;;
+}
+#copyright{
     text-align: center;
 }
