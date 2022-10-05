@@ -1,0 +1,125 @@
+body {
+    background-image: url("../images/movie/background.png");
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 8pt;
+    margin: 0;
+}
+
+.banner {
+    background-image: url("../images/movie/bannerbg.png");
+    text-align: center;
+
+}
+
+.movie-title {
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana,sans-serif;
+    box-shadow: 3px 3px 3px #999999; 
+    width: 33%;
+    margin: auto;
+}
+
+.overall-area {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    border : 4px solid gray;
+    border-radius: 20px;
+}
+
+.overall-area::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+.right-section {
+    float: right;
+    width: 25%;
+    margin-left: 5px;
+    background-color: #A2B964;
+    font-family : Arial, sans-serif;
+    font-size: 8pt;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;    
+}
+
+
+.right-section > div > img{
+    width: 100%;
+    border-top-right-radius: 20px;
+}
+
+.right-section > dl {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.right-section > dl > dt {
+    margin-top: 10pt;
+}
+
+.left-section > .rating {
+    background: url("../images/movies/rbg.png");
+    background-repeat: repeat-x;
+    background-size:auto;
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px; 
+}
+
+
+.left-section > div >img {
+    vertical-align: middle;
+    border-top-left-radius: 15px;
+}
+
+.left-section > .reviews {
+    columns: 2;
+    margin-top: auto;
+}
+
+.left-section > .reviews > .review {
+    font-size: 8pt;
+    font-weight: bold;
+    background-color: #E8DC9B;
+    border : 2px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 20px;
+    height: 100px;
+    margin-left: 5px;
+}
+
+.left-section > .reviews > p img {
+    float: left; 
+    padding: 5px;
+}
+.links{
+    display:block;
+    overflow: auto;
+}
+
+
+.page {
+    position: absolute;
+    bottom: 0;
+    width: 98%;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    background-color: #A2B964;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.validators {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    opacity: 50%;
+}
