@@ -47,7 +47,7 @@ footer {
     padding: 2px 0 2px 0;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) { 
     .main {
         display: flex;
         flex-basis: 30%;
