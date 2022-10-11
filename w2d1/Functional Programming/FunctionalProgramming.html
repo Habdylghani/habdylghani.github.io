@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../mocha/mocha.css">
+
+    <script src="../mocha/mocha.js"></script>
+    <script src="../mocha/chai.js"></script>
+    <script>
+        // initialize mocha
+        mocha.setup('bdd');
+        // chai has a lot of stuff, let's make assert global
+        let assert = chai.assert;
+
+    </script>
+    <script src="FunctionalProgramming.js"></script>
+    <script src="testFunctionalProgramming.js"></script>
+    <title>Functional Programming</title>
+</head>
+<body>
+    <div id="mocha"><ul id="mocha-stats"><li class="progress"><canvas width="40" height="40"></canvas></li><li class="passes"><a href="javascript:void(0);">passes:</a> <em>0</em></li><li class="failures"><a href="javascript:void(0);">failures:</a> <em>0</em></li><li class="duration">duration: <em>0</em>s</li></ul><ul id="mocha-report"></ul></div>
+    <script>
+        mocha.run();
+    </script>
+</body>
+</html>
